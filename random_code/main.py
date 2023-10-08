@@ -54,7 +54,7 @@ def lbs(a, x):
 
 def rbs(a, x):
     l = 0
-    r = len(a) - 1
+    r = len(a)
     while l + 1 != r:
         c = (l + r) // 2
         if a[c] > x:
